@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: roboto, sans-serif;
+    font-family: 'Jost';
+}
+
+.color{
+    background: #272725;
+    background: #e6e6e6;
+    background: #7E7B75;
+    background: #949189;
+}
+
+.reviewout{
+    height: 350px;
+    width: 100%;
+    background: #272725;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.review{
+    height: 350px;
+    width: 1305px;
+    background: #272725;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.rreview{
+    height: 280px;
+    width: 1305px;
+    background: #272725;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.rone, .rtwo{
+    height: 275px;
+    width: 640px;
+    background: #272725;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.rwrite{
+    height: 225px;
+    width: 600px;
+    color: #e6e6e6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: .5px;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+.rname{
+    height: 50px;
+    width: 600px;
+    color: #e6e6e6;
+    font-size: 20px;
+}
+
+.rbutton{
+    height: 70px;
+    width: 1305px;
+    background: #272725;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rbutt{
+    height: 60px;
+    width: 170px;
+    background: #949189;
+    /* font-size: 48px; */
+    /* font-weight: bold; */
+    color: #272725;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+
+.rbutt:hover{
+    background: #7E7B75;
+    cursor: pointer;
+    transition: all 0.15s ease-in-out 0.10s;
+    color: #fff;
+    border-radius: 2px;
+}

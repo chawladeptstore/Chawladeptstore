@@ -1,0 +1,182 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: roboto, sans-serif;
+    font-family: 'Jost';
+}
+
+.color{
+    background: #272725;
+    background: #e6e6e6;
+    background: #7E7B75;
+    background: #949189;
+}
+
+.locateout{
+    height: 530px;
+    width: 100%;
+    background: #272725;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.locate{
+    height: 490px;
+    width: 1305px;
+    background-color: #272725;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ltime{
+    height: 420px;
+    width: 1305px;
+    background: #272725;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.lone{
+    height: 400px;
+    width: 580px;
+    /* background: #272; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* position: relative; */
+}
+
+.lcds{
+    height: 100px;
+    width: 570px;
+    /* background: #725; */
+    color: #e6e6e6;
+    font-size: 45px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    justify-content: left;
+}
+
+.laddress{
+    height: 30px;
+    width: 570px;
+    /* background: #725; */
+    color: #e6e6e6;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /* right: 10%; */
+}
+
+.lcall{
+    height: 70px;
+    width: 570px;
+    /* background: #726; */
+    color: #e6e6e6;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.ltwo{
+    height: 400px;
+    width: 550px;
+    /* background: #785; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.lbushrs{
+    height: 100px;
+    width: 470px;
+    /* background: #725; */
+    color: #e6e6e6;
+    font-size: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-weight: bold;
+}
+
+.ldtime{
+    height: 230px;
+    width: 430px;
+    /* background: #725; */
+    color: #e6e6e6;
+    font-size: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-direction: column;
+}
+
+.lday{
+    height: 30px;
+    width: 430px;
+    /* background: #726; */
+    color: #e6e6e6;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+.lbutton{
+    height: 70px;
+    width: 1295px;
+    background: #7E7B75;
+    background: #272725;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lbutt{
+    height: 70px;
+    width: 400px;
+    background: #7E7B75;
+    background: #272725;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.bcall, .badd{
+    height: 60px;
+    width: 170px;
+    background: #949189;
+    /* font-size: 48px; */
+    /* font-weight: bold; */
+    color: #272725;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+
+.bcall:hover{
+    background: #7E7B75;
+    cursor: pointer;
+    transition: all 0.15s ease-in-out 0.10s;
+    color: #fff;
+    border-radius: 2px;
+}
+
+.badd:hover{
+    background: #7E7B75;
+    cursor: pointer;
+    transition: all 0.15s ease-in-out 0.10s;
+    color: #fff;
+    border-radius: 2px;
+}

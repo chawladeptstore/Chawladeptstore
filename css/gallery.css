@@ -1,0 +1,145 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: roboto, sans-serif;
+    font-family: 'Jost';
+}
+
+.color{
+    background: #272725;
+    background: #e6e6e6;
+    background: #7E7B75;
+    background: #949189;
+}
+
+.galleryout{
+    height: 800px;
+    width: 100%;
+    background: #272725;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery{
+    height: 750px;
+    width: 1200px;
+    background: #272725;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ginfo{
+    height: 725px;
+    width: 500px;
+    background: #272725;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column  ;
+}
+
+.gspace{
+    height: 100px;
+    width: 500px;
+    background: #272725;
+}
+
+.gcds{
+    height: 80px;
+    width: 400px;
+    background: #272725;
+    font-size: 48px;
+    font-weight: bold;
+    color: #e6e6e6;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.gtype{
+    height: 250px;
+    width: 400px;
+    background: #272725;
+    font-size: 25px;
+    /* font-weight: bold; */
+    color: #e6e6e6;
+    letter-spacing: .5px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gbutton{
+    height: 70px;
+    width: 400px;
+    background: #272725;
+    /* font-size: 48px; */
+    /* font-weight: bold; */
+    color: #e6e6e6;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.gbutt{
+    height: 65px;
+    width: 170px;
+    background: #949189;
+    /* font-size: 48px; */
+    /* font-weight: bold; */
+    color: #e6e6e6;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+
+.gbutt:hover{
+    background: #7E7B75;
+    cursor: pointer;
+    transition: all 0.15s ease-in 0.10s;
+    color: #fff;
+    border-radius: 2px;
+}
+
+.aimage{
+    height: 725px;
+    width: 700px;
+    background: #272725;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gimg{
+    height: 715px;
+    width: 630px;
+    background: #b3afa6;
+    background: url(./img/gallery.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    filter: grayscale(100%);
+
+}
+
+.gimg:hover{
+    /* transform: scale(.9); */
+    transition-duration: .3s;
+    filter: grayscale(0%);
+    /* opacity: .7; */
+  }
+
+  @media only screen and (max-width: 900px) {
+    .container {
+        width: calc(50% - 6px);
+    }
+}
+@media only screen and (max-width: 400px) {
+    .container {
+        width: 100%;
+    }
+}

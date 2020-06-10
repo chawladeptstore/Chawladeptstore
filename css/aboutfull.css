@@ -1,0 +1,326 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: roboto, sans-serif;
+    font-family: 'Jost';
+}
+
+.color{
+    background: #272725;
+    background: #e6e6e6;
+    background: #7E7B75;
+    background: #949189;
+}
+
+.spacers{
+    height: 80px;
+    width: 100%;
+}
+
+.aboutfullout{
+    height: 3000px;
+    width: 100%;
+    background: #272725;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutfull{
+    height: 3000px;
+    width: 1305px;
+    background: #272725;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.afimage{
+    height: 500px;
+    width: 1250px;
+    background: #272725;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.afimg{
+    height: 490px;
+    width: 1200px;
+    background: #949189;
+    background: #7E7B75;
+    background: url(./img/aboutfront.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.afstoryout{
+    height: 1000px;
+    width: 1250px;
+    background: #949189;
+    background: #272725;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.afstory{
+    height: 990px;
+    width: 600px;
+    background: #949189;
+    background: #272725;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.storyhead{
+    height: 80px;
+    width: 580px;
+    background: #272725;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    color: #e6e6e6;
+    font-weight: 1200;
+    font-size: 45px;
+}
+
+.storydesp{
+    height: 500px;
+    width: 530px;
+    background: #272725;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #e6e6e6;
+    font-size: 28px;
+}
+
+.storydesp2{
+    height: 500px;
+    width: 530px;
+    background: #272725;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: right;
+    color: #e6e6e6;
+    font-size: 28px;
+}
+
+.afsimage{
+    height: 990px;
+    width: 600px;
+    background: #000;
+    background: #272725;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.afsimg{
+    height: 650px;
+    width: 500px;
+    background: #272725;
+    background: #7E7B75;
+    background: url(./img/aboutstory.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.afsplout{
+    height: 400px;
+    width: 100%;
+    /* background: #5A5660; */
+    background: #E0E2EE;
+    background: #272725;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.afspl{
+    height: 400px;
+    width: 1305px;
+    /* background: #5A5522; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.afbox1, .afbox2, .afbox3{
+    height: 150px;
+    width: 350px;
+    border: 2px #000 solid;
+    /* background: #bae; */
+    background: #E0E2EE;
+    background: #949189;
+    /* box-shadow: 5px 5px #000; */    
+    /* box-shadow: 0px 10px 10px #928fdb; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.afbox1:hover{
+    border: 1px #e6e6e6 solid;
+    transition: ease-in 0.15s;
+    cursor: default;
+    /* background: #ffffff; */
+    box-shadow: 0px 0px 0px #615cfd;
+    /* color: #6f42c1; */
+}
+
+.afbox2:hover{
+    border: 1px #e6e6e6 solid;
+    transition: ease-in 0.15s;
+    cursor: default;
+    box-shadow: 0px 0px 0px #615cfd;
+    /* color: #6f42c1; */
+}
+
+.afbox3:hover{
+    border: 1px #e6e6e6 solid;
+    /* color: #e6e6e6; */
+    transition: ease-in 0.15s;
+    cursor: default;
+    box-shadow: 0px 0px 0px #615cfd;
+    /* color: #6f42c1; */
+}
+
+.afbox11, .afbox21, .afbox31{
+    height: 100px;
+    width: 100px;
+    background: #000;
+}
+
+.afbox11{
+    background: url(./img/rupeeblack.png);
+    background-size: cover;
+}
+
+.afbox21{
+    background: url(./img/choiceblack.png);
+    background-size: cover;
+}
+
+.afbox31{
+    background: url(./img/paymentblack.png);
+    background-size: cover;
+}
+
+
+.afbox12,  .afbox22, .afbox32{
+    height: 140px;
+    width: 205px;
+    background: #E0E2EE;
+    background: #949189;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.afbox121, .afbox221, .afbox321{
+    height: 50px;
+    width: 195px;
+    /* background: #f9ae65; */
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: roboto;
+}
+
+.afbox122, .afbox222, .afbox322{
+    height: 70px;
+    width: 200px;
+    /* background: #6f42c1; */
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 15px;
+    /* font-family: roboto; */
+}
+
+.afthinkout{
+    height: 1000px;
+    width: 1250px;
+    background: #949189;
+    background: #272725;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.aftimage{
+    height: 990px;
+    width: 700px;
+    background: #000;
+    background: #272725;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.aftimg1, .aftimg2{
+    height: 400px;
+    width: 650px;
+    background: #272725;
+    background: #7E7B75;
+    background: url(./img/aboutthing1.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aftimg2{
+    background: url(./img/aboutthing2.jpg);
+    background-size: cover;
+
+}
+
+.afthink{
+    height: 400px;
+    width: 500px;
+    background: #949189;
+    background: #272725;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.thinkhead{
+    height: 80px;
+    width: 500px;
+    background: #272725;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    color: #e6e6e6;
+    font-weight: 1200;
+    font-size: 45px;
+}
+
+.thinkdesp{
+    height: 200px;
+    width: 470px;
+    background: #272725;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #e6e6e6;
+    font-size: 28px;
+}

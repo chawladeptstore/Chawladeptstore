@@ -1,0 +1,216 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: roboto, sans-serif;
+    font-family: 'Jost';
+}
+
+.color{
+    background: #272725;
+    background: #e6e6e6;
+    background: #7E7B75;
+    background: #949189;
+}
+
+.headout{
+    height: 150px;
+    width: 100%;
+    background: #272725;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* position: sticky; */
+}
+
+.head{
+    height: 120px;
+    width: 1305px;
+    background: #272725;
+    /* background: #7E7B75; */
+    color: #e6e6e6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hcds{
+    height: 70px;
+    width: 120px;
+    /* background: #949189; */
+    color: #e6e6e6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*font-family: 'Montserrat'; */
+    font-size: 40px; 
+    font-weight: bold;
+}
+
+.hcenter{
+    height: 80px;
+    width: 1150px;
+    background: #7E7B75;
+    background: #949189;
+    background: #272725;
+    color: #e6e6e6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.habout, .hgallery, .hlocation, .hreview{
+    height: 80px;
+    width: 100px;
+    background: #272725;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: default;
+    color: #e6e6e6;
+    text-decoration: underline;
+}
+
+.hcontact{
+    height: 50px;
+    width: 140px;
+    background: #949189;
+    /* background: #272725; */
+    color: #e6e6e6;
+    margin: 10px;
+    font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hcontact:hover{
+    background: #7E7B75;
+    transition: all 0.20s ease-in 0.15s;
+}
+
+.headsocial{
+    height: 30px;
+    width: 1315px;
+    width: 100%;
+    background: #949189;
+    /* background: #42423f; */
+    color: #e6e6e6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hinsta{
+    height: 30px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: #7E7B75; */
+}
+
+
+.hfaceb{
+    height: 30px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #e6e6e6;
+}
+
+.hpint{
+    height: 30px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hmail{
+    height: 30px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: #7E7B75; */
+}
+
+.hphone{
+    height: 30px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hlocate{
+    height: 30px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.habout:hover{
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.20s ease-in 0.25s;
+}
+
+.hgallery:hover{
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.20s ease-in 0.25s;
+}
+
+ .hlocation:hover{
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.20s ease-in 0.25s;
+}
+
+ .hreview:hover{
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.20s ease-in 0.25s;
+
+}
+
+ .hcontact:hover{
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.20s ease-in 0.25s;
+
+}
+
+ .hinsta:hover{
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.20s ease-in 0.25s;
+}
+
+ .hfaceb:hover{
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.20s ease-in 0.25s;
+}
+
+ .hpint:hover{
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.20s ease-in 0.25s;
+}
+
+ .hphone:hover{
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.20s ease-in 0.25s;
+}
+
+.hlocate:hover{
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.20s ease-in 0.25s;
+}
